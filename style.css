@@ -1,0 +1,37 @@
+body{
+  font-family:'Roboto', sans-serif;
+  margin: 75px;
+}
+h1{
+  font-family: 'Manrope', sans-serif;
+}
+
+.product-card{
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  width: 55%;
+}
+.card-header{
+  padding:36px;
+}
+.card-header h1{
+  font-size: 24px;
+  color:#084887;
+}
+.card-header span{
+  color:#F9AB54;
+}
+.card-header p{
+ color:#909CC2;
+}
+
+.product-pricing{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pricing-details{
+
+}
