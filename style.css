@@ -12,7 +12,7 @@ h1{
   flex-direction: column;
   border-radius: 8px;
   box-shadow: 0 0 8px rgba(0,0,0,0.4);
-  width: 55%;
+  width: 68%;
   background: white;
 }
 .card-header{
@@ -92,3 +92,30 @@ font-size: 18px;
 footer{
   background: white;
 }
+@media (max-width: 1000px) {
+  .product-card{
+    width:100%;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  body{
+    margin:20px;
+  }
+  .product-card{
+    width:100%;
+  }
+  .product-pricing{
+    flex-direction: column;
+  }
+  .pricing-details{
+    width:auto;
+    border-radius: 0 0 0 0;
+  }
+
+  .infos{
+    width:auto;
+    border-radius: 0 0 8px 8px;
+  }
+}
+
