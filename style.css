@@ -1,6 +1,7 @@
 body{
   font-family:'Roboto', sans-serif;
   margin: 75px;
+  background-image: url(https://www.frebers.com/wp-content/uploads/wpdm-cache/Geometric-Pattern-Background-x.jpg);
 }
 h1{
   font-family: 'Manrope', sans-serif;
@@ -10,8 +11,9 @@ h1{
   display: flex;
   flex-direction: column;
   border-radius: 8px;
-  box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 0 0 8px rgba(0,0,0,0.4);
   width: 55%;
+  background: white;
 }
 .card-header{
   padding:36px;
@@ -54,6 +56,19 @@ font-size: 18px;
   align-items: center;
   font-size: 40px;
 }
+.button{
+  border-radius: 8px;
+  color: white;
+  background: #F9AB55;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.button:hover{
+ background:#F58A07;
+ cursor:pointer;
+}
 .infos{
   width: 100%;
   padding:36px;
@@ -72,4 +87,8 @@ font-size: 18px;
   color: white;
   font-size: 18px;
   margin-bottom: 16px;
+}
+
+footer{
+  background: white;
 }
